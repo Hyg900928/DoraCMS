@@ -2,7 +2,7 @@
 const path = require('path')
 const isDocker = process.env.BUILD_ENV == 'docker' ? true : false;
 const mongohost = isDocker ? 'mongodb' : '127.0.0.1:27017';
-const mongobin = isDocker ? '' : '/Users/dora/Documents/dora/softs/mongodb/bin/';
+const mongobin = isDocker ? '' : '/usr/local/bin/';
 
 module.exports = appInfo => {
 

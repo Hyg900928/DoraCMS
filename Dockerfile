@@ -1,6 +1,6 @@
 FROM mhart/alpine-node
 
-LABEL author="doramart@qq.com"
+LABEL author="heyg@cunxin.com"
 
 ENV PORT=8080
 
