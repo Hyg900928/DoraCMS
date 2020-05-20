@@ -61,8 +61,9 @@
     "pkgfiles": "egg-bin pkgfiles",
     "init": "node ./build/restore",
     "doracms": "node ./install/index.js",
-    "start": "cross-env NODE_ENV=production && egg-scripts start --daemon --title=doracms2",
-    "stop": "egg-scripts stop --title=doracms2"
+    "start": "cross-env NODE_ENV=production && pm2 start server.js --name doracms2",
+    "stop": "pm2 stop doracms2",
+    "restart": "pm2 restart doracms2"
   },
   "ci": {
     "version": "8, 9"

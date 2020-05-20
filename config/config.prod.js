@@ -19,7 +19,7 @@ module.exports = appInfo => {
         },
         // mongodb相关路径
         mongodb: {
-            binPath: '/usr/local/mongodb/mongodb-linux-x86_64-ubuntu1604-4.0.0/bin/',
+            binPath: '/usr/local/bin/',
             backUpPath: '/home/database/doracms/'
         },
         // 静态目录
