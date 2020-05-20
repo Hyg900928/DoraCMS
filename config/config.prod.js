@@ -31,7 +31,8 @@ module.exports = appInfo => {
         // 日志路径
         logger: {
             dir: '/home/doraData/logsdir/doracms',
-            allowDebugAtProd: true
+            allowDebugAtProd: true,
+            consoleLevel: 'DEBUG',
         },
         // 服务地址配置
         server_path: 'https://www.heyungao.com',
