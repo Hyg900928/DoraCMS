@@ -5,7 +5,7 @@ module.exports = appInfo => {
 
     return {
         // 插件路径
-        admin_root_path: '/static',
+        admin_root_path: path.join(appInfo.baseDir, 'backstage/dist'),
         // 数据库连接
         mongoose: {
             client: {
