@@ -33,8 +33,8 @@ module.exports = appInfo => {
             dir: '/home/doraData/logsdir/doracms',
         },
         // 服务地址配置
-        server_path: 'https://www.html-js.cn',
-        server_api: 'https://www.html-js.cn/api',
+        server_path: 'https://www.heyungao.com',
+        server_api: 'https://www.heyungao.com/api',
 
     }
 };
